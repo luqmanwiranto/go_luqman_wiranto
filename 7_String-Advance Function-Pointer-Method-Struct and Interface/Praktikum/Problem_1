@@ -1,0 +1,21 @@
+package main
+
+import (
+	"fmt"
+	"strings"
+)
+
+const (
+	stringA = "IMA"
+	stringB = "IMASI"
+	stringa = "aminah"
+	stringb = "amin"
+)
+
+func main() {
+	substringAB := strings.Contains(stringA, stringB)
+	substringab := strings.Contains(stringa, stringb)
+
+	fmt.Println(substringAB)
+	fmt.Println(substringab)
+}
